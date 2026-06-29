@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Credentials / environment
+.env
+*.env
+
+# Automation outputs
+screenshots/
+logs/
+*.log
+
+# Excel data (may contain PII)
+data/
+
+# Geckodriver binary
+drivers/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
