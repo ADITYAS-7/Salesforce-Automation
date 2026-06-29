@@ -5,7 +5,8 @@
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\Git\\\\bin\"; git --version)",
       "PowerShell(Get-ChildItem \"C:\\\\Program Files\" -Directory | Select-Object Name; Get-ChildItem \"$env:LOCALAPPDATA\\\\Programs\" -Directory -ErrorAction SilentlyContinue | Select-Object Name)",
       "PowerShell($env:PATH += \";$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\bin\"; git --version)",
-      "PowerShell($env:PATH += \";$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\bin\"; Set-Location \"c:\\\\Users\\\\Aditya.Sharma1\\\\salesforce_party_automation\"; git init; git remote add origin https://github.com/ADITYAS-7/Salesforce-Automation.git; git add .; git commit -m \"Initial commit\"; git branch -M main; git push -u origin main)"
+      "PowerShell($env:PATH += \";$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\bin\"; Set-Location \"c:\\\\Users\\\\Aditya.Sharma1\\\\salesforce_party_automation\"; git init; git remote add origin https://github.com/ADITYAS-7/Salesforce-Automation.git; git add .; git commit -m \"Initial commit\"; git branch -M main; git push -u origin main)",
+      "PowerShell($env:PATH += \";$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\bin\"; git config --global core.autocrlf true)"
     ]
   }
 }
